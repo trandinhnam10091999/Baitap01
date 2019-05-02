@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tạo form và các điều khiển</title>
+</head>
+<body>
+	<div>		
+	<form id="phieudangki">
+		<h2 style="color:green;font-weight:bold ">
+			Phiếu đăng kí tham gia chương trình khuyến mãi	
+		</h2>
+		<table border="1px"cellspacing="0"bodercolor="green"style="background-color: #82E0AA">
+			<tr>
+				<td style="color:green">Họ và tên</td>
+				<td><input type="text" id="name"name="name" value=""></td>
+			</tr>
+			<tr>
+				<td style="color:green">Địa chỉ</td>
+				<td><input type="text"id="addrees" name="address" value=""size="30"></td>
+			</tr>
+			<tr>
+				<td style="color:green">Điện thoại</td>
+				<td><input type="text"id="Phone number" name="Phone number"size="30"></td>
+			</tr>
+			<tr>
+				<td style="color:green">Phái</td>
+				<td><input type="radio" name="gioitinh" value="">Nam <input type="radio" name="gioitinh"size="10" checked>Nữ</td>
+			</tr>
+			<tr>
+				<td style="color:green">Nghề nghiệp</td>
+				<td><select>
+  						<option value="Giáo viên">Giáo viên</option>
+  						<option value="Bác sĩ">Bác sĩ</option>
+  						<option value="Công an">Công an</option>
+  						<option value="Tự do">Tự do</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td style="color:green">Chọn sản phẩm tham gia</td>
+				<td><select name="" id="sanpham" multiple size="4">
+						<option value="sanpham">Kem đánh răng</option>
+						<option value="sanpham">Dầu gội đầu</option>
+						<option value="sanpham">Bột giặt</option>
+						<option value="sanpham">Sữa tắm</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td style="color:green">Số người dự đoán tham gia</td>
+				<td><input type="text" name="amount"size="10"></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><input type="button" name=""value="Đồng ý" onclick="myFunction()">
+				</td>				
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<h4 id="notification"></h4>
+				</td>				
+			</tr>
+			
+		</table>		
+	</form>
+	</div>
+	<script>
+	function myFunction()
+	{
+	document.getElementById("notification").innerHTML= "Bạn đã đăng ký thành công!!!"
+  	}		
+  	</script>											
+</body>
+</html>
