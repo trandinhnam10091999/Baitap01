@@ -1,0 +1,19 @@
+.header_top{
+	padding: 0px;
+	position: relative;
+
+}	
+.search{
+	
+    float: right;
+    
+    text-align: right;
+    position: absolute;
+    bottom: 0px;
+    right: 2%;
+    padding-bottom: 1%;
+}
+.navbar{
+	position: fixed;
+	width: 100%;
+    }
