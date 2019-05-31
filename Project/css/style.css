@@ -1,158 +1,370 @@
-<<<<<<< HEAD
-.header p {
-    background-image: url("../images/header.jpg");
-    width: 100%;
-    height: 150px;
-    background-size: cover;
-    text-align: right ;
-}
-.headertop {
-	padding-right: 20px;
-	padding-bottom: 0px;
-}
-.header1 {
-    padding-right: 100px;
-    padding-left: 15px; 
-}
-.tableright {
-	background-color: #C0C0C0FF;
-}
-a {
-	text-decoration: none ;
-	color: black;
-}
-.footer {
-	color: white ;
-}
-.footertop {
-	background-color: #007F46FF ;
-	text-align: center;
-}
-.footerbottom {
-	background-color: #004C2AFF ;
-	text-align: center;
-}
-=======
-.header{
-	padding: 0px;
-	position: relative;
-
-}	
-.search{
-	
-    float: right;
-    
-    text-align: right;
-    position: absolute;
-    bottom: 0px;
-    right: 2%;
-    padding-bottom: 1%;
-}
-.navbar{
-	
-	width: 100%;
-
-    }
-.main{
-	position: absolute;
-}
-  .dropdown2 {
-    display: block;
-    display: inline-block;
+#page-left {
     margin: 0px;
+    padding: 0px;
+    width: 672px;
+    float: left;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+div.menu {
+    background: #FFFFFF;
+    margin-top: 2px ;
+    float: left ;
+    width: 670px;
+    color: white;
+    height: 34px;
+}
+
+div.menu1 {
+    margin-top: 0px ;
+    float: left ;
+    color: #56606a;
+    text-align: center;
+    vertical-align: top;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5px;
+    *padding-top: 2px;
+    height: 23px;
+    *height: 28px;
+    font-weight: bold;
+    background: -moz-linear-gradient(right, #ebecec , #c7c8c9 );
+    *filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c7c8c9', endColorstr='#ebecec',GradientType="1") ;
+    background: -webkit-gradient(linear, left top, right top, from(#c7c8c9), to(#ebecec));
+}
+
+div.menu1 a {
+    text-decoration: none;
+    color: #56606a;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+div.menu1 a:hover {
+    color: #000000;
+}
+
+div.pageboth {
+    float: left ;
+    background: #F4F5F6;
+}
+
+/*slide ảnh*/
+.divanhslide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 333px;
+    max-height: 333px;
+}
+
+.img_slider {
+    float: left;
+    border: solid 0px #ebecec;
+    margin-top: 3px ;
+    margin-left: 0px;
+    width: 668px;
+    height: 333px;
+    max-height: 333px;
+}
+
+#simplegalleryMain {
     position: relative;
-    height:53px;
-    }
+    visibility: hidden;
+    float: left;
+    font-size: 14px;
+    z-index: 1;
+    background-color: white !important;
+}
 
-    /* ===[ For demonstration ]=== */
+#simplegalleryMain .gallerydesctext {
+    text-align: left;
+    padding: 1px 2px;
+    font-weight: bold ;
+}
 
-    .dropdown2 { margin-top: 0px; height:53px }
+#simplegalleryMain a img {
+    width: 668px;
+    height: 333px;
+}
 
-    /* ===[ End demonstration ]=== */
+/*This will work for firefox*/
+@-moz-document url-prefix() {
+    #simplegalleryMain a img {
+        height: 336px;
+    }
+}
 
-    .dropdown2 .dropdown_button {
-        cursor: pointer;
-        width: 296px;
-        display: inline-block;
-        padding: 0 6px;
-        border: 0px solid #AAA;
-        -webkit-border-radius: 0px;
-        -moz-border-radius: 0px;
-        border-radius: 0px;
-        font-weight: bold;
-        color: #717780;
-        line-height: 53px;
-        height:53px;
-        text-decoration: none !important;
-        background: url("/Themes/Blue/images/cackhoa.jpg");
-    }
-    .dropdown2 .dropdown_button:hover ~ .dropdown_content { display: block } 
-    .dropdown2 .dropdown_button::outside ~ .dropdown_content { display: none } 
-    .dropdown2 .dropdown_button:hover {
-        border: 0px solid #3B5998;
-        color: white;
-        background: url("/Themes/Blue/images/cackhoa.jpg");
-        -moz-border-radius-topleft: 0px;
-        -moz-border-radius-topright: 0px;
-        -moz-border-radius-bottomright: 0px;
-        -moz-border-radius-bottomleft: 0px;
-        -webkit-border-radius: 0px 0px 0px 0px;
-        border-radius: 0px 0px 0px 0px;
-        border-bottom-color: #6D84B4;
-        border-top:0px;
-    }
-    
-    .dropdown_button .arrow {
-        display: inline-block;
-        width: 0px;
-        height: 0px;
-        border-top: 5px solid #6B7FA7;
-        border-right: 5px solid transparent;
-        border-left: 5px solid transparent;
-        margin-bottom: 1px;
-    }
-   
-    .dropdown2 .dropdown_content {
-        position: absolute;
-        border: 1px solid #aaa;
-        padding: 0px;
-        background: white;
-        margin: 0;
-        display: none;
-        width: 306px;
-        border-top:0px;
-        z-index:99999;
-        top: 52px
-    }
-        .dropdown2 .dropdown_content:hover {
-        display:block;
-    }
+/****************************************************LEFT LEFT*****************************************/
+.main-left {
+    width: 200px;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    padding-top: 5px;
+}
 
-    .dropdown2 .dropdown_content li {
-        list-style: none;
-        margin-left: 0px;
-        line-height: 16px;
-        border-top: 1px solid #FFF;
-        border-bottom: 1px solid #FFF;
-        margin-top: 2px;
-        margin-bottom: 2px;
-    }
+div.inImgLeft {
+    margin: 0;
+    padding: 0px;
+    background: white;
+    border: 0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+}
 
-    .dropdown2 .dropdown_content li:hover {
-        background: #dde4ef;
-    }
+div.outImgLeft {
+    margin: 0;
+    padding: 2px;
+    margin-bottom: 5px;
+    float: left;
+    background: #993300;
+    width: 196px ;
+    height: auto;
+}
 
-    .dropdown2 .dropdown_content li a {
-        display: block;
-        padding: 2px 7px;
-        padding-right: 15px;
-        color: black;
-        text-decoration: none !important;
-        white-space: nowrap;
-    }
+/*MEDIA*/
+div.inMedia {
+    margin: 0;
+    padding: 0px;
+    padding-left: 5px;
+    padding-top: 10px;
+    background: white;
+    border: 0;
+}
 
-    .dropdown2 .dropdown_content li:hover a {
-        color: #717780;
-        text-decoration: none !important;
-    }
->>>>>>> 955dcc71772d0fc9972a8c97f407f8c8cfe6085b
+div.outMedia {
+    padding: 2px;
+    margin: 0px;
+    margin-bottom: 5px;
+    float: left;
+    background: #993300;
+    width: 196px ;
+    height: auto
+}
+
+.ulmedia {
+    padding-top: 10px;
+    padding-bottom: 6px;
+    font-weight: bold ;
+    line-height: 19px;
+    list-style-type: disc;
+    vertical-align: middle;
+    list-style-position: outside;
+}
+
+.ulmedia li a {
+    text-decoration: none;
+    color: Black;
+}
+
+.ulmedia li a:hover {
+    text-decoration: underline;
+    color: #003366;
+}
+
+/*END MEDIA*/
+/****************************************************LEFT RIGHT*****************************************/
+.main-center {
+    width: 662px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 0px;
+}
+
+.main-center_children {
+    float: left;
+    width: 668px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 28px;
+}
+
+.main-center_children1 {
+    float: left;
+    width: 667px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 5px;
+    padding-left: 0px;
+}
+
+div.main-title {
+    color: #ee2e2a;
+    width: 642px;
+    text-align: left;
+    padding-bottom: 4px;
+    font-size: 14px;
+    border-bottom: 1px solid #56606a;
+}
+
+div.main-title a {
+    color: #ee2e2a;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.content-div {
+    width: 668px;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+.top5-list {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.top5tin ul li {
+    margin-left: 25px ;
+    margin-right: 10px;
+    line-height: 18px;
+    list-style-type: circle ;
+}
+
+div.top5tin ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+div.top5tin ul li a:hover {
+    text-decoration: underline;
+}
+
+/*top 2 tin dien */
+.group3news {
+    height: 330px;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.home-img {
+    padding: 1px;
+    border: solid 1px #C0C0C0;
+    width: 130px;
+    margin-bottom: 5px;
+}
+
+.home-title-a {
+    text-decoration: none;
+    font-weight: bold ;
+    color: black;
+}
+
+.home-title-a:hover {
+    color: #dd7923;
+}
+
+.home-brief-a {
+    text-decoration: none;
+    color: #323741;
+}
+
+.home-brief-a:hover {
+    color: #dd7923;
+}
+/* CSS Document */
+#page-right {
+    margin: 0px;
+    padding: 0px;
+    width: 308px;
+    float: right;
+    padding-top: 3px;
+}
+
+div.divlienketweb {
+    margin-top: 7px ;
+    *margin-top: 6px ;
+    float: left ;
+    color: #56606a;
+    text-align: left;
+    vertical-align: text-top;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    height: 28px;
+    width: 308px;
+    background: -moz-linear-gradient(right, #ebecec , #c7c8c9 );
+    *filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c7c8c9', endColorstr='#ebecec',GradientType="1") ;
+    background: -webkit-gradient(linear, left top, right top, from(#c7c8c9), to(#ebecec));
+}
+
+div.divdangky {
+    float: left;
+    width: 308px;
+    height: 150px;
+    *height: 150px;
+    margin-top: 7px;
+    margin-bottom: 3px;
+    overflow: hidden;
+    *margin-top: 6px;
+    background: -moz-linear-gradient(right, #e8e8e8 , #fefefe );
+    *filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#e8e8e8',GradientType="1") ;
+    background: -webkit-gradient(linear, left top, right top, from(#fefefe), to(#e8e8e8));
+}
+
+div.divthongbao {
+    margin-top: 7px;
+    float: left;
+    width: 308px;
+    height: 320px;
+    overflow: hidden;
+    background-color: #f5f6f1;
+}
+
+/*hien thi cac muc right*/
+div.inner {
+    margin: 0;
+    padding: 0px;
+    background: white;
+    border: 0;
+    padding-right: 0px;
+}
+
+div.headtopread {
+    background: #B12A23;
+    height: 26px;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: bold ;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    width: 292px;
+}
+
+div.headtopread a {
+    float: left;
+    color: white;
+    width: 294px;
+    text-align: center;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.ul-docnhieunhat {
+    padding: 0px ;
+    margin: 0px;
+    padding-left: 20px ;
+    *padding-left: 28px ;
+    list-style-type: decimal;
+    font-weight: bold ;
+    color: #808080;
+    font-size: 11px;
+    line-height: 20px;
+}
+
+.ul-docnhieunhat a {
+    color: #494949;
+}
+
+/*end hien thi cac muc right*/
