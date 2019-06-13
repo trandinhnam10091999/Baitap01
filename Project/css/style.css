@@ -327,8 +327,12 @@ div.inner {
     margin: 0;
     padding: 0px;
     background: white;
-    border: 0;
+    border: 0px;
     padding-right: 0px;
+}
+div.link-advs{
+    border: 1px;
+    border-spacing: 1px;
 }
 
 div.headtopread {
@@ -345,7 +349,7 @@ div.headtopread {
 div.headtopread a {
     float: left;
     color: white;
-    width: 294px;
+    width: 292px;
     text-align: center;
     padding-top: 5px;
     text-decoration: none;
