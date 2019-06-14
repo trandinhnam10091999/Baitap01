@@ -1,0 +1,168 @@
+#page-left {
+    margin: 0px;
+    padding: 0px;
+    width: 672px;
+    float: left;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+/*slide ảnh*/
+.divanhslide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 333px;
+    max-height: 333px;
+}
+
+.img_slider {
+    float: left;
+    border: solid 0px #ebecec;
+    margin-top: 3px ;
+    margin-left: 0px;
+    width: 668px;
+    height: 333px;
+    max-height: 333px;
+}
+
+#simplegalleryMain {
+    position: relative;
+    visibility: hidden;
+    float: left;
+    font-size: 14px;
+    z-index: 1;
+    background-color: white !important;
+}
+
+#simplegalleryMain a img {
+    width: 668px;
+    height: 333px;
+}
+
+.main-center {
+    width: 662px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 0px;
+}
+
+.main-center_children {
+    float: left;
+    width: 668px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 28px;
+}
+
+
+
+div.main-title {
+    color: #ee2e2a;
+    width: 642px;
+    text-align: left;
+    padding-bottom: 4px;
+    font-size: 14px;
+    border-bottom: 1px solid #56606a;
+}
+
+div.main-title a {
+    color: #ee2e2a;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.content-div {
+    width: 668px;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+
+/*top 2 tin dien */
+.group3news {
+    height: 330px;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.home-img {
+    padding: 1px;
+    border: solid 1px #C0C0C0;
+    width: 130px;
+    margin-bottom: 5px;
+}
+
+.home-title-a {
+    text-decoration: none;
+    font-weight: bold ;
+    color: black;
+}
+
+.home-title-a:hover {
+    color: #dd7923;
+}
+
+.home-brief-a {
+    text-decoration: none;
+    color: #323741;
+}
+
+.home-brief-a:hover {
+    color: #dd7923;
+}
+
+
+
+
+/* Pageright */
+#page-right {
+    margin: 0px;
+    padding: 0px;
+    width: 308px;
+    float: right;
+    padding-top: 3px;
+}
+
+
+div.divthongbao {
+    margin-top: 7px;
+    float: left;
+    width: 308px;
+    height: 320px;
+    overflow: hidden;
+    background-color: #f5f6f1;
+}
+
+/*hien thi cac muc right*/
+
+div.link-advs{
+    border: 1px;
+    border-spacing: 1px;
+}
+
+
+
+
+.urbangreymenu .headerbar:hover {
+    background-color: gray;
+
+}
+.urbangreymenu .headerbar {
+    background-color: #d1cccc ;
+    
+    margin-bottom: 1px;
+    text-transform: none;
+    padding: 1px 0px 1px 19px;
+}
+.urbangreymenu .headerbar a {
+    text-decoration: none;
+    color: black ; 
+   }

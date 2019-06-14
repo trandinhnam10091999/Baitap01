@@ -1,408 +1,200 @@
-#page-left {
-    margin: 0px;
-    padding: 0px;
-    width: 672px;
-    float: left;
-    text-align: left;
-    margin-bottom: 10px;
-}
-
-div.menu {
-    background: #FFFFFF;
-    margin-top: 2px ;
-    float: left ;
-    width: 670px;
-    color: white;
-    height: 34px;
-}
-
-div.menu1 {
-    margin-top: 0px ;
-    float: left ;
-    color: #56606a;
-    text-align: center;
-    vertical-align: top;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 5px;
-    *padding-top: 2px;
-    height: 23px;
-    *height: 28px;
-    font-weight: bold;
-    background: -moz-linear-gradient(right, #ebecec , #c7c8c9 );
-    *filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c7c8c9', endColorstr='#ebecec',GradientType="1") ;
-    background: -webkit-gradient(linear, left top, right top, from(#c7c8c9), to(#ebecec));
-}
-
-div.menu1 a {
-    text-decoration: none;
-    color: #56606a;
-    font-family: Arial;
-    font-size: 11px;
-    font-weight: bold;
-}
-
-div.menu1 a:hover {
-    color: #000000;
-}
-
-div.pageboth {
-    float: left ;
-    background: #F4F5F6;
-}
-
-/*slide ảnh*/
-.divanhslide {
-    float: left;
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    height: 333px;
-    max-height: 333px;
-}
-
-.img_slider {
-    float: left;
-    border: solid 0px #ebecec;
-    margin-top: 3px ;
-    margin-left: 0px;
-    width: 668px;
-    height: 333px;
-    max-height: 333px;
-}
-
-#simplegalleryMain {
-    position: relative;
-    visibility: hidden;
-    float: left;
-    font-size: 14px;
-    z-index: 1;
-    background-color: white !important;
-}
-
-#simplegalleryMain .gallerydesctext {
-    text-align: left;
-    padding: 1px 2px;
-    font-weight: bold ;
-}
-
-#simplegalleryMain a img {
-    width: 668px;
-    height: 333px;
-}
-
-/*This will work for firefox*/
-@-moz-document url-prefix() {
-    #simplegalleryMain a img {
-        height: 336px;
-    }
-}
-
-/****************************************************LEFT LEFT*****************************************/
-.main-left {
-    width: 200px;
-    float: left;
-    padding: 0px;
-    margin: 0px;
-    text-align: left;
-    padding-top: 5px;
-}
-
-div.inImgLeft {
-    margin: 0;
-    padding: 0px;
-    background: white;
-    border: 0;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 3px;
-}
-
-div.outImgLeft {
-    margin: 0;
-    padding: 2px;
-    margin-bottom: 5px;
-    float: left;
-    background: #993300;
-    width: 196px ;
-    height: auto;
-}
-
-/*MEDIA*/
-div.inMedia {
-    margin: 0;
-    padding: 0px;
-    padding-left: 5px;
-    padding-top: 10px;
-    background: white;
-    border: 0;
-}
-
-div.outMedia {
-    padding: 2px;
-    margin: 0px;
-    margin-bottom: 5px;
-    float: left;
-    background: #993300;
-    width: 196px ;
-    height: auto
-}
-
-.ulmedia {
-    padding-top: 10px;
-    padding-bottom: 6px;
-    font-weight: bold ;
-    line-height: 19px;
-    list-style-type: disc;
-    vertical-align: middle;
-    list-style-position: outside;
-}
-
-.ulmedia li a {
-    text-decoration: none;
-    color: Black;
-}
-
-.ulmedia li a:hover {
-    text-decoration: underline;
-    color: #003366;
-}
-
-/*END MEDIA*/
-/****************************************************LEFT RIGHT*****************************************/
-.main-center {
-    width: 662px;
-    float: left;
-    margin: 0px;
-    padding: 0px;
-    padding-left: 0px;
-}
-
-.main-center_children {
-    float: left;
-    width: 668px;
-    height: auto;
-    margin: 0px;
-    padding: 0px;
-    padding-top: 28px;
-}
-
-.main-center_children1 {
-    float: left;
-    width: 667px;
-    margin: 0px;
-    padding: 0px;
-    padding-top: 5px;
-    padding-left: 0px;
-}
-
-div.main-title {
-    color: #ee2e2a;
-    width: 642px;
-    text-align: left;
-    padding-bottom: 4px;
-    font-size: 14px;
-    border-bottom: 1px solid #56606a;
-}
-
-div.main-title a {
-    color: #ee2e2a;
-    font-weight: normal;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-.content-div {
-    width: 668px;
-    padding: 0px;
-    margin: 0px;
-    float: left;
-}
-
-.top5-list {
-    margin: 0px;
-    padding: 0px;
-}
-
-div.top5tin ul li {
-    margin-left: 25px ;
-    margin-right: 10px;
-    line-height: 18px;
-    list-style-type: circle ;
-}
-
-div.top5tin ul li a {
-    text-decoration: none;
-    color: black;
-}
-
-div.top5tin ul li a:hover {
-    text-decoration: underline;
-}
-
-/*top 2 tin dien */
-.group3news {
-    height: 330px;
-    width: 100%;
-    float: left;
-    overflow: hidden;
-}
-
-.home-img {
-    padding: 1px;
-    border: solid 1px #C0C0C0;
-    width: 130px;
-    margin-bottom: 5px;
-}
-
-.home-title-a {
-    text-decoration: none;
-    font-weight: bold ;
-    color: black;
-}
-
-.home-title-a:hover {
-    color: #dd7923;
-}
-
-.home-brief-a {
-    text-decoration: none;
-    color: #323741;
-}
-
-.home-brief-a:hover {
-    color: #dd7923;
-}
-/* CSS Document */
-#page-right {
-    margin: 0px;
-    padding: 0px;
-    width: 308px;
-    float: right;
-    padding-top: 3px;
-}
-
-div.divlienketweb {
-    margin-top: 7px ;
-    *margin-top: 6px ;
-    float: left ;
-    color: #56606a;
-    text-align: left;
-    vertical-align: text-top;
-    font-family: Arial;
+body {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
-    font-weight: bold;
-    height: 28px;
-    width: 308px;
-    background: -moz-linear-gradient(right, #ebecec , #c7c8c9 );
-    *filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c7c8c9', endColorstr='#ebecec',GradientType="1") ;
-    background: -webkit-gradient(linear, left top, right top, from(#c7c8c9), to(#ebecec));
-}
-
-div.divdangky {
-    float: left;
-    width: 308px;
-    height: 150px;
-    *height: 150px;
-    margin-top: 7px;
-    margin-bottom: 3px;
-    overflow: hidden;
-    *margin-top: 6px;
-    background: -moz-linear-gradient(right, #e8e8e8 , #fefefe );
-    *filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#e8e8e8',GradientType="1") ;
-    background: -webkit-gradient(linear, left top, right top, from(#fefefe), to(#e8e8e8));
-}
-
-div.divthongbao {
-    margin-top: 7px;
-    float: left;
-    width: 308px;
-    height: 320px;
-    overflow: hidden;
-    background-color: #f5f6f1;
-}
-
-/*hien thi cac muc right*/
-div.inner {
     margin: 0;
-    padding: 0px;
-    background: white;
-    border: 0px;
-    padding-right: 0px;
-}
-div.link-advs{
-    border: 1px;
-    border-spacing: 1px;
+    padding: 0;
+    background: #ffffff;
 }
 
-div.headtopread {
-    background: #B12A23;
-    height: 26px;
-    font-family: Arial, Helvetica, sans-serif ;
-    font-weight: bold ;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-    width: 292px;
-}
-
-div.headtopread a {
-    float: left;
-    color: white;
-    width: 292px;
-    text-align: center;
-    padding-top: 5px;
+/*top banner*/
+a {
+    color: #4d4d4d;
     text-decoration: none;
 }
 
-.ul-docnhieunhat {
-    padding: 0px ;
+a:hover {
+    color: #dd7923
+}
+
+.mainpage {
+    width: 100%;
     margin: 0px;
-    padding-left: 20px ;
-    *padding-left: 28px ;
-    list-style-type: decimal;
-    font-weight: bold ;
-    color: #808080;
-    font-size: 11px;
-    line-height: 20px;
+    padding: 0px;
 }
 
-.ul-docnhieunhat a {
-    color: #494949;
+.topbaner {
+    width: 980px;
+    margin: 0px;
+    padding: 0px;
+    float: inherit;
+}
+
+#search {
+    color: #666666;
+    float: right;
+    font-size: 10px;
+    height: 28px;
+    width: 310px;
+    vertical-align: top;
+    text-align: right;
+    position: absolute;
+    top: -36px;
+    right: 10px;
+}
+
+#search label {
+    color: white;
+    font-size: 12px;
+}
+
+#search input:focus {
+    border: 1px #0066FF solid;
+}
+
+.menubar {
+    margin: 0px;
+    width: 978px;
+    float: left;
+    z-index: 1000;
+    position: relative;
+    border-top: 3px solid #dd7923;
+    border-bottom: 5px solid #d1cccc;
+    border-left: 1px solid #d1cccc;
+    border-right: 1px solid #d1cccc;
+    min-height: 30px;
+    background-color: white;
+}
+
+#page {
+    margin: 0px;
+    padding: 0px;
+    width: 980px;
+    float: inherit;
+    background-color: #FFFFFF;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* footer*/
+div.footer {
+    width: 100%;
+    float: left;
+    height: 100px;
+    text-align: left;
+    background-color: #007c7c;
+    min-height: 100px;
+}
+
+div.footerLast {
+    width: 100%;
+    float: left;
+    height: 40px;
+    text-align: left;
+    background-color: #0f5658;
+    min-height: 40px;
+}
+
+div.footertMain {
+    margin: 0px;
+    padding: 0px;
+    width: 980px;
+    float: inherit;
+    text-align: left;
+    vertical-align: top;
+}
+
+div.footertMain a {
+    color: white;
+    text-decoration: none;
+}
+
+div.footertMain a:hover {
+    color: #f8e676;
+    text-decoration: underline;
 }
 
 
-/*end hien thi cac muc right*/
 
-/*logo học viện */
-.urbangreymenu .headerbar:hover {
-    background: #d1cccc;
+/*footer left*/
+div.divttbanquyen {
+    width: 440px;
+    float: left;
+    height: 100%;
+    color: white;
+    padding-top: 23px;
 }
-.urbangreymenu .headerbar {
-    background: #e9e9e9 url(../images/blet.png) no-repeat 8px 14px;
-    margin-bottom: 1px;
-    text-transform: none;
-    padding: 1px 0px 1px 19px;
+
+
+
+/*melubottom*/
+.divmenu {
+    float: right;
+    width: 305px;
+    border-left: 1px solid #f6f2f2;
+    padding-left: 5px;
+    min-height: 100px;
 }
-h6 {
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+
+
+
+.socialName {
+    color: white;
+    padding-top: 23px;
     font-weight: bold;
 }
 
-    .news-content p
-    {
-        clear:both;
-        line-height:18px;
-    }
-    .news-content img
-    {
-        float:none !important;
-        max-width:686px;
-        border:1px solid gainsboro;
-        padding:1px;
-    }
+.socialIcon {
+    padding-top: 3px;
+}
+
+.socialIcon img {
+    padding-right: 4px;
+}
+
+/* logo hoc vien */
+.tbtbmoi {
+    margin-top: 15px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.tbtitletb {
+    color: #ee2e2a;
+}
+
+div.top10thongbao {
+    float: left;
+    width: 270px;
+    height: 345px;
+    *height: 340px;
+    overflow: hidden;
+}
+
+
+div.top10thongbao ul li {
+    
+    margin-bottom: 6px;
+    padding-left: 8px;
+}
+
+div.top10thongbao ul li a {
+    color: #636363;
+    text-decoration: none;
+}
+
+div.top10thongbao ul li a:hover {
+    color: #dd7923;
+}
+
+.link-advs:hover {
+    opacity: 0.8;
+}
+
+#Searching {
+    color: #dd7923;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px;
+    margin-left: -23px;
+}
+
