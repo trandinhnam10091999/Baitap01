@@ -1,383 +1,43 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Học viện Kỹ thuật mật mã</title>
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/page-left-right.css">
+    
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/menu.css" />
-    <link rel="stylesheet" type="text/css" href="css/Login.css">
+   
+    
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" type="text/css" href="css/baiviet.css">
+    <link rel="stylesheet" type="text/css" href="css/quantri.css">
+
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery.dropdownPlain.js"></script>
-      
+    <script type="text/javascript" src="js/login.js"></script>
 </head>
-<body>  
-    <center>
-        <div class="mainpage">
-            <div class="topbaner">
-                <div id="headerTop">
-                    <img alt="Học viện Kỹ thuật mật mã" src="http://home.actvn.edu.vn/Upload/svda/hoc-vien-mat-ma.jpg" class="logoTop" />
-                    <div id="header">
-                        <div id="search">
-                            <label>Tìm kiếm</label>
-                            <input type="text" size="25" class="google" id="se" name="q" />
-                            <a class="fa fa-search" id="Searching" title=""></a>        
-                        </div>
-                    </div>
-                </div>
-            <div class="menubar">               
-                <div style="float:left">
-                    <ul style="float:left;" class="dropdown">                  
-                        <li class="">
-                            <a title="" href="trangchu.html"><span class="down">Trang chủ</span> </a>
-                        </li>
-   
-                        <li class="">
-                            <a title="" href="trangchu.html"><span class="down">Giới thiệu</span> </a>
-                
-                            <ul class="sub_menu" style="visibility: hidden">             
-                                <li class="">
-                                    <a title="" href="lichsuhinhthanh.html">Lịch sử hình thành</a>
-                                </li>
-                                
-                                <li class="">
-                                    <a title="" href="logohocvien.html">Logo học viện</a>
-                                </li>
-                            </ul>
-                        </li>          
-                            
-                        <li class="">
-                            <a title="" href="daotao.html"><span class="down">Đào tạo</span> </a>
-                            <ul class="sub_menu" style="visibility: hidden">                
-                                <li class="">
-                                    <a title="" href="daotao/mohinhvachuongtrinhdaotao.html">Mô hình và chương trình đào tạo</a>                        
-                                </li>
-
-                                <li class="fly">
-                                    <a title="" href="#">Ngành học và bậc đào tạo</a>                        
-                                    <ul style="visibility: hidden">                        
-                                        <li><a title="" href="daotao/nganhhocvabacdaotao/daihoc.html">Đại học</a>          
-                                        <li><a title="" href="daotao/nganhhocvabacdaotao/saudaihoc.html">Sau đại học</a></li>
-                                    </ul>
-                                </li>
-                
-                                <li class="">
-                                    <a title="" href="daotao/chuandauracacchuongtrinhhoc.html">Chuẩn đầu ra các chương trình học</a>
-                                </li>
-                
-                                <li class="">
-                                    <a title="" href="daotao/khaothi&kdcldt.html">Khảo thí & KĐCLĐT</a>
-                                </li>
-                            </ul>                
-                        </li>
-          
-                        <li class="">
-                            <a title="" href="chienluocKHCN.html"><span class="down">Khoa học công nghệ</span> </a>
-                            <ul class="sub_menu" style="visibility: hidden">
-                                <li class="">
-                                    <a title="" href="chienluocKHCN.html">Chiến lược KH-CN</a>
-                                </li>
-                
-                                <li class="">
-                                    <a title="" href="viennghiencuu.html">Viện nghiên cứu</a>
-                                 </li>
-                            </ul>               
-                        </li>
-          
-                        <li class="">
-                            <a title="" href="sinhvien/gioithieuchung.html"><span class="down">Sinh viên</span> </a>
-                            <ul class="sub_menu" style="visibility: hidden">              
-                                <li class="">
-                                    <a title="" href="sinhvien/gioithieuchung.html">Giới thiệu chung</a>
-                                </li>
-                
-                                <li class="fly">
-                                    <a title="" href="sinhvien/hocbong.html">Học bổng</a>
-                        
-                                    <ul style="visibility: hidden">
-                        
-                            <li><a title="" href="sinhvien/hocbong/trongnuoc.html">Trong nước</a></li>
-                        
-                            <li><a title="" href="sinhvien/hocbong/ngoainuoc.html">Ngoài nước</a></li>
-                        
-                            <li><a title="" href="sinhvien/hocbong/quydinh.html">Quy định</a></li>
-                        
-                        </ul>
-                        
-                    </li>
-                
-                    <li class="">
-                        <a title="" href="sinhvien/doanhoi.html">Đoàn – Hội</a>
-                        
-                    </li>
-                
-                    <li class="">
-                        <a title="" href="sinhvien/thongtintuyendungchosinhvien.html">Thông tin tuyển dụng cho sinh viên</a>
-                        
-                    </li>
-                
-                    <li class="">
-                        <a title="" href="sinhvien/vanbanbieumau.html">Văn bản – Biểu mẫu</a>
-                        
-                    </li>
-                
-                    <li class="">
-                        <a title="" href="sinhvien/office365.html">OFFICE 365</a>
-                        
-                    </li>
-                
-                </ul>
-                
-            </li>
-          
-                            
-            <li class="">
-                <a title="" href="gioithieuchung.html"><span class="down">Hợp tác Quốc tế</span> </a>
-                
-                <ul class="sub_menu" style="visibility: hidden">
-                
-                    <li class="">
-                        <a title="" href="gioithieuchung.html">Giới thiệu chung</a>
-                        
-                    </li>
-                
-                    <li class="">
-                        <a title="" href="hoptacquocte.html">Đối tác quốc tế</a>
-                        
-                    </li>
-                
-                </ul>
-                
-            </li>
-          
-                            
-            <li class="">
-                <a title="" href="lienhe.html"><span class="down">Liên hệ</span> </a>
-                
-            </li>
-            <li class="">
-                <a title="" href="Login.html"><span class="down">Login</span> </a>
-                
-            </li>
-        </ul>
-    </div>
-
-        <div style="float:right; text-align:right; padding-top:9px; padding-right:8px;">
-            <a style="text-decoration:none; color:#60585c" href="http://actvn.edu.vn/AboutUs.html"><span class="down">English</span></a>
-        </div>
-    </div>
-</div>
-<!-- main page -->
-	<div id="page">
-		            
-
-    
-<div id="page-left"> 
-	<!-- Image Slider -->
-	<form method="post" action="bangdiem.html">
-                            <div class="hidden alert-danger">
-                                  Tài khoản hoặc mật khẩu chưa chính xác
-                            </div>  
-                                <div class="form-group">
-                                    <label>Tên người dùng</label>
-                                    <input type="text" id="name" name="username" class="form-control" placeholder="Nhập tên người dùng">
-                                    <small class="form-text text-muted">Nhập tài khoản của bạn vào đây !</small>
-                                </div>      
-                                <div class="form-group">
-                                    <label>Mật khẩu</label>
-                                    <input type="password" id="pass" name="password" class="form-control" placeholder="Nhập mật khẩu">
-                                </div>      
-                                <div class="form-group">            
-                                    <button type="button" name="login" id="login" class="btn btn-outline-info">Đăng nhập</button>
-                                </div>
-                        </form>
-</div>
-
-
-<div id="page-right">
-        <div class="home-right">
-	        <div class="inner">	
-		        <div style="float:left;max-height:396px; width:308px;background-color:#fff">
-                    <span>
-	                    <a href="http://115.146.127.72/CMCSoft.IU.Web.Info/Home.aspx" target="_blank" title="Dành cho người học" class="link-advs">
-                            <img src="http://home.actvn.edu.vn/Upload/svda/danh-cho-nguoi-hoc.png" title="Dành cho người học" />
-                        </a>
-                    </span>
-                                
-                    <span>
-                        <a href="http://tuyensinh.actvn.edu.vn" target="_blank" title="TUYỂN SINH ĐẠI HỌC 2017" class="link-advs">
-    	                    <img src="http://home.actvn.edu.vn/Upload/svda/thong-tin-tuyen-sinh-2015.png" title="TUYỂN SINH ĐẠI HỌC 2017" />
-                        </a>
-                    </span>
-                                
-                    <span>
-        	            <a href="http://sdh.actvn.edu.vn" target="_blank" title="Tuyển sinh sau Đại học" class="link-advs">
-                            <img src="http://home.actvn.edu.vn/Upload/svda/tuyen-sinh-sau-dai-hoc.png" title="Tuyển sinh sau Đại học" />
-                        </a>
-            	    </span>
-                                
-                    <span>
-                        <a href="http://thuvienso.actvn.edu.vn" target="_blank" title="Thư viện số" class="link-advs">
-                            <img src="http://home.actvn.edu.vn/Upload/svda/thu-vien-so-left.png" title="Thư viện số" />
-                        </a>
-                    </span>
-                                
-                    <span>
-                        <a href="http://thuvien.actvn.edu.vn" target="_blank" title="Thư viện điện tử" class="link-advs">
-                            <img src="http://home.actvn.edu.vn/Upload/svda/thu-vien-dien-tu-right.png" title="Thư viện điện tử" />
-                        </a>
-                    </span>
-                                
-                    <span>
-                        <a href="http://forum.actvn.edu.vn" target="_blank" title="Diễn đàn" class="link-advs">
-                            <img src="http://home.actvn.edu.vn/Upload/svda/dien-dan.png" title="Diễn đàn" />
-                        </a>
-                    </span>
-                              
-			        <div class="dropdown2" id="dropdown">
-			            <label class="dropdown_button"></label>
-			            <ul class="dropdown_content">
-			            
-			                <li><a href="http://flc.actvn.edu.vn" target="_blank">Trung Tâm Ngoại Ngữ KMA</a></li>
-			            
-			                <li><a href="http://dtvt.actvn.edu.vn" target="_blank">Khoa Điện Tử Viễn Thông</a></li>
-			            
-			                <li><a href="http://attt.actvn.edu.vn" target="_blank">Khoa An Toàn Thông Tin</a></li>
-			            
-			                <li><a href="http://cntt.actvn.edu.vn" target="_blank">Khoa Công Nghệ Thông Tin</a></li>
-			            
-			            </ul>
-			        
-			        </div>
-		        </div>
-		        <!--Thông báo mới-->
-		        <div class="divthongbao">
-			        <center>
-				        <table width="280" cellspacing="0px" cellpadding="0px" class="tbtbmoi">
-					        <tbody>
-                                <tr>
-    						        <td class="tbtitletb">
-    							        <h6>THÔNG BÁO MỚI</h6>
-    						        </td>
-					            </tr>
-					            <tr>
-						            <td class="tbcontentb">	
-		                                <div style="clear:both; padding-top:4px;" class="top10thongbao">
-		                                    <ul class="top10-list">
-                                            
-                                                <li><a href="http://actvn.edu.vn/ke-hoach-tong-ket-va-trao-giai-chuong-trinh-nghien-cuu-khoa-hoc-trong-hoc-vien-sinh-vien-nam-hoc-2018-2019-90375.html">KẾ HOẠCH Tổng kết và trao giải Chương trình Nghiên cứu khoa học trong học viên, sinh viên năm học 2018-2019</a></li>
-                                                
-                                                <li><a href="http://actvn.edu.vn/thong-bao-ve-viec-thu-tien-hoc-phi-hoc-ky-ii-nam-hoc-2018-2019-90373.html">THÔNG BÁO: Về việc thu tiền học phí Học kỳ II năm học 2018 – 2019</a></li>
-                                                
-                                                <li><a href="http://actvn.edu.vn/thong-bao-ve-viec-bo-sung-cap-nhat-thong-tin-ca-nhan-doi-voi-sinh-vien-dai-hoc-chinh-quy-he-dong-hoc-phi-90372.html">THÔNG BÁO: Về việc bổ sung, cập nhật thông tin cá nhân đối với sinh viên Đại học chính quy hệ đóng học phí </a></li>
-                                                
-                                                <li><a href="http://actvn.edu.vn/thong-bao-vv-mo-lop-hoc-phan-hoc-lai-thuoc-cac-nganh-an-toan-thong-tin-nganh-cong-nghe-thong-tin-va-nganh-ky-thuat-dien-tu-vien-thong-90364.html">THÔNG BÁO: V/v Mở lớp học phần học lại thuộc các ngành An toàn thông tin, ngành Công nghệ thông tin và ngành Kỹ thuật điện tử viễn thông</a></li>
-                                                
-                                                <li><a href="http://actvn.edu.vn/thong-bao-vv-to-chuc-nghiem-thu-cac-chuyen-de-nghien-cuu-khoa-hoc-trong-hoc-vien-sinh-vien-nam-hoc-2018-2019-90362.html">THÔNG BÁO: V/v tổ chức nghiệm thu các chuyên đề nghiên cứu khoa học trong học viên, sinh viên năm học 2018 - 2019</a></li>
-                                                
-                                                <li><a href="/ke-hoach-thi-ket-thuc-hoc-phan-hoc-ky-2-nam-hoc-2018-2019-dot-1-he-dong-hoc-phi-90358.html">KẾ HOẠCH: Thi kết thúc học phần Học kỳ 2, năm học 2018 - 2019 (đợt 1) hệ đóng học phí</a></li>
-                                                
-                                                <li><a href="http://actvn.edu.vn/ke-hoach-thi-ket-thuc-hoc-phan-hoc-ky-ii-nam-hoc-2018-2019-he-dong-hoc-phi-tai-phia-nam-90359.html">KẾ HOẠCH: Thi kết thúc học phần Học kỳ II Năm học 2018 - 2019 Hệ đóng học phí tại </a></li>
-                                                    
-			                                </ul>
-		                                </div>
-						            </td>
-					            </tr>
-				            </tbody>
-                        </table>
-			        </center>
-		        </div>	
-		        <!--End thông báo mới-->
-		       
-                <div class="dropdown" id="dropdown">
-                        <label class="dropdown_button">Liên kết website <span class="arrow"></span></label>
-                        <ul class="dropdown_content">
-                            
-                                <li><a href="http://mod.gov.vn/" target="_blank">BỘ QUỐC PHÒNG</a></li>
-                            
-                                <li><a href="http://moet.gov.vn/" target="_blank">BỘ GIÁO DỤC VÀ ĐÀO TẠO</a></li>
-                            
-                                <li><a href="http://antoanthongtin.vn" target="_blank">TẠP CHÍ AN TOÀN THÔNG TIN</a></li>
-                            
-                        </ul>
-                        
-                 </div>
-                <div class="useronline">
-                        Khách đang online: 29
-                </div>
-            </div>
-	    </div>
-    </div>	
-</div>
-<!-- end main page -->
-
-<div class="footer">
-	<center>
-        <div class="footertMain">
-                            
-            <div class="divttbanquyen">
-            	<p><strong>Cơ quan chủ quản: Học viện Kỹ thuật Mật mã</strong><br>
-            Giám đốc Học viện: PGS. TS.Nguyễn Hồng Quang<br />
-            Địa chỉ: 141 đường Chiến Thắng, Tân Triều, Thanh Trì, Hà Nội</p>
-
-            </div>
-            <div class="divmenu">
-	            <div class="socialName">Mạng xã hội:</div>
-                <div class="socialIcon">
-                    <p><a href="https://www.facebook.com/hocvienkythuatmatma" target="_blank"><img alt="" src="http://home.actvn.edu.vn/Upload/setting/social/facebook-icon.png" /></a> <img alt="" src="http://home.actvn.edu.vn/Upload/setting/social/twitter-icon.png" /> <img alt="" src="http://home.actvn.edu.vn/Upload/setting/social/Google-plus-icon.png" /> <img alt="" src="http://home.actvn.edu.vn/Upload/setting/social/Reader-alt-Metro-icon.png" /> <img alt="" src="http://home.actvn.edu.vn/Upload/setting/social/youtube-icon.png" />&nbsp;<a href="http://mail.actvn.edu.vn" target="_blank"><img alt="" src="http://home.actvn.edu.vn/Upload/setting/social/mail-icon.png" style="height:24px; width:24px" /></a></p>
-                </div>
-            </div>
-        </div>
-    </center>
-</div>
-</div>
-
-
-<div class="footerLast">
-                    
-<center>
-    <div class="footertMain">
-        <div style="float:left;width:60%; padding-top:12px; color:white">
-            
-            <a href="http://actvn.edu.vn" title="Trang chủ">Trang chủ</a> |
-                        
-                <a href="" title="Giới thiệu">Giới thiệu</a> |
-                        
-                <a href="http://actvn.edu.vn/chien-luoc-khoa-hoc-cong-nghe-61.html" title="Khoa học công nghệ">Khoa học công nghệ</a> |
-                        
-                <a href="http://actvn.edu.vn/van-ban.html" title="Văn bản">Văn bản</a> |
-                        
-                <a href="http://actvn.edu.vn/chinh-sach-bao-mat.html" title="Chính sách bảo mật">Chính sách bảo mật</a> |
-                        
-                <a href="http://actvn.edu.vn/tin-tuc.html" title="Tin tức">Tin tức</a> |
-                        
-                <a href="http://actvn.edu.vn/lien-he.html" title="Liên hệ">Liên hệ</a>
-                        
-                        
-        </div>
-        <div style="float:right;width:40%; padding-top:12px; color:white; text-align:right">
-            © Copyright 2015 Học viện Kỹ thuật Mật mã. All rights reserved.
-        </div>
-    </div>
-</center>
-</div>
-<script src="js/jquery-3.4.1.min.js"></script>  
-    <script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript">
-
-        $('#login').click(function() {
-                if ($('#name').val()=='admin' && $('#pass').val()=='123456') {
-                    window.location.href='bangdiem.html';
-                }
-                else{
-                    $( ".alert-danger" ).show();
-                }
-        });
-    </script>
+<body>
+    <div class="header" >
+		<h2>LOG IN- Học viện Kỹ thuật mật mã</h2>
+	</div>
+	<form method="post" action="login.html">
+	<div id="hidden" class="notification">
+		  Tài khoản hoặc mật khẩu chưa chính xác
+	</div>	
+		<div class="input-group">
+			<label>Username</label>
+			<input type="text" id="name" name="username">
+		</div>		
+		<div class="input-group">
+			<label>Password</label>
+			<input type="Password" id="pass" name="password">
+		</div>		
+		<div class="input-group">			
+			<button type="button" name="login" id="login" class="btn">login</button>
+		</div>
+		
+	</form>
 </body>
 </html>
